@@ -1,0 +1,472 @@
+main {
+    width: 100%;
+    height: calc(100vh-60px);
+    background-color: #c13588;
+    margin-top: 60px;
+    background-image: url(../BG.png)
+    background-repeat: no-repeat;
+    background-size: 70vh, cover;
+    background-position: bottom, center;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    column-gap: 20vh;
+}
+main .main-intro h2 {
+    font-size: 96px;
+    line-height: 106px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 30px;
+}
+main a{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    background-color: var(--site-color-01);
+    background-color: yellowgreen;
+    padding: 10px-20px;
+    width: fit-content;
+}
+main .main-quotes p{
+    border-left:4px solid var(--site-color-01)
+    padding-left: 20px;
+    margin: 40px 0;
+}
+main .main-quotes p:nth-child(2) {
+    margin-left: 80px;
+
+}
+main .main-intro{
+    position: relative;
+    right: 0vh;
+    padding-bottom: 8vh;
+}
+main .main-quotes{
+    position: relative;
+    right: 4vh;
+    padding-bottom: 8vh;
+}
+
+
+:root {
+    --site-color-01: #c13584;
+    --site-color-01-hover: blue
+
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    background-color: rgb(14, 12, 105);
+}
+
+body:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(../img/facebook-logo.png) url(../img/insta-logo.png)
+}
+.wrapper-main {
+    width: 1100px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 26px ;
+    line-height: 32px;
+    color: fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+p {
+    font-size: 14px ;
+    line-height: 18px;
+    color: fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    cursor: pointer;
+}
+.header1 {
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    fit-content
+}
+.header-main-logo {
+    width: fit-content;
+    width: 134px;
+    height: 100%;
+    background-color: yellow;
+    padding-center: 60px;
+    display: flex ;
+}
+.header-main-logo img {
+    height: 60px;
+    align-self: center;
+}
+.header-main-nav {
+    width: 120px;
+    height: 100%;
+    background-color: green;
+}
+.header-main-nav ul {
+    list-style: none;
+    margin-left: 30px;
+}
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+.header-main-nav ul li a {
+    padding: 0 10% 0 10%;
+    font-family: font-family: 'Roboto', sans-serif;;
+    line-height: 60px;
+}
+.header-main-sm {
+    width: 120px;
+    height: 100%;
+    background-color: red;
+    padding-center; 60px:
+    display: flex;
+    align-items: center;
+}
+. .header-main-sm-fb {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/facebook-logo.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+
+.main-p {
+    color: blue;
+    font-size: 70px;
+    font-family:sans-serif ;
+    font-weight: bolder;6
+    font-style: italic;
+    font-display: ;
+    font-variant: east-asian-width-value;
+    font-feature-settings: "c2pc";
+    font-stretch:ultra-expanded ;
+    font-variant-ligatures: no-historical-ligatures;
+    font-variant-numeric: tabular-nums;
+    font-variation-settings: 250px ;
+    text-emphasis-position: right;
+    text-decoration: underline;
+    text-align: center;
+   line height: 78px;
+   word-spacing: 50px;
+   float: :left;
+}
+.test-div {
+    width: 500px;
+    height: 50px;
+    background-color: blue;
+    margin: 400px 200px 200px 400px;
+    float: left;
+
+}
+.test-div2 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    padding: 200px 0 0 200px;
+    z-index: 1000;
+    border: blueviolet 10px;
+}
+.header-main {
+    width: 100%;
+    background-color: rgb(127, 48, 48);
+    height: 60px;
+}
+.image {
+    width: 800px;
+}
+.image2 {
+    width: 800px;
+
+}
+.Main-main2 {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(22, 31, 39);
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Main-main2 div {
+    height: 400px;
+    display: flex;
+}
+.Main-main2 div-1 {
+    height: 20px;
+    width: 100px;
+    background-color: rgb(80, 8, 8);
+    display: flex;
+}
+.Main-main2 div-2 {
+    height: 10px;
+    width: 100px;
+    background-color: brown;
+    display: flex;
+}
+
+.header-menu-bar {
+    width: 100%;
+    height: 60px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu-bar-logo{
+    width: 132px;
+    height: 100%;
+    background-color: ;
+    display: flex;
+    padding-left: 60px;
+}
+.header-menu-bar-logo img{
+    height: 60px;
+    align-self: center;
+}
+.header-menu-bar nav {
+    width: fit-content;
+    height: 100%;
+    background-color: ;
+}
+.header-menu-bar-nav ul {
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.header-menu-bar-nav ul li{
+    display: inline;
+    float: left;
+    
+}
+.header-menu-bar-nav ul li a {
+    padding: 0 10px;
+    font-family: Roboto; 
+    line-height: 60px;
+    color: black;
+    
+}
+.header-menu-bar-nav ul li a:hover {
+    color: #c13584;
+    
+    
+}
+
+.header-menu-bar-sm {
+    width: fit-content;
+    height: 100%;
+    background-color: ;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.header-menu-bar-sm-fb {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/fb-black\ and\ white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header-menu-bar-sm-in {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/insta-black\ and\ white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-menu-bar-sm-fb:hover {
+    background-image: url(../img/facebook-logo.png);
+}
+.header-menu-bar-sm-in {
+    background-image: url(../img/insta-logo.png);
+}
+
+
+/*Category Section*/
+.index-category {
+
+}
+.index-category-box {
+
+}
+.index-category-box-h5 {
+    
+}
+.index-about-image {
+    width: 230px;
+    display: flex;
+    font-size: 40px;
+    font
+}
+
+/* THIS IS A FOOTER*/
+.footer-main{
+    width: 100%;
+    column-width: 100px;
+    padding: 30px 0 50px;
+    background-color: rgb(3, 115, 78);
+    display: flex;
+    column-gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margins: 
+    
+}
+.wrapper-main {
+    width: 1100px;
+    margin: 0 auto;
+}
+.footer.main-flex {
+    display: flex;
+    justify-content: center;
+}
+.footer-testimony {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.footer-testimony img {
+    width: 50%;
+    border-radius: 100px;
+
+}
+.footer-testimony p {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 0px;
+}
+.footer-main a {
+
+}
+.footer-getintouch {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    font-weight: 600;
+    margin: 40px 0 60px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+.footer-getintouch:hover {
+    border: 2px solid #c13588 ;
+    
+}
+.footer-sitemap {
+    flex-basis: 100%;
+    display: flex;
+}
+.footer-sitemap a {
+    line-height: 30px;
+}
+.footer-sitemap a:hover {
+    opacity: 0.8;
+}
+.footer-sitemap ul:nth-child {
+    flex-basis: 200px;   
+}
+.footer-sitemap ul:nth-child(1) {
+    flex-basis: 180px;
+    border-left: 4px solid var(--site-color-01);
+    padding-left: 20px;
+}
+.footer-sitemap ul:nth-child(2),{
+    flex-basis : 180px;
+}
+.footer-sitemap p{
+    text-transform: uppercase;
+}
+.footer-sitemap ul:nth-child(4) {
+    flex-grow: 1;
+}
+.footer-sitemap ul:nth-child(4) li {
+    clear: both
+    float-right;
+}
+
+/*Yahan se CNN wala shuru hai*/
+
+/* header styling yahan se shuru hoti hai*/
+.header{
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    color: beige;
+}
+/* yahan se left-header shuru*/
+.left-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-header div{margin: 1rem}
+
+.burger-line{
+    display: block;
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #fff;
+    border-radius: 40px;
+    margin: 0.3rem;
+}
+.menu-list ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+.menu-lists ul li{margin: 0.5rem}
+.cnn-motto{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.right-header {
+    display: flex;
+    justify-content: space-between;
+}
+.right-header div{
+    margin: 1rem;
+}
+.top-headlines{
+    display: flex;
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 1rem;
+}
+.headlines{
+    display: flex;
+}
+.headline-type{
+    color: red;
+}
+

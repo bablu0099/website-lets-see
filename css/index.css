@@ -1,0 +1,94 @@
+main {
+    width: 100%;
+    height: calc(100vh-60px);
+    background-color: #1A253A;
+    margin-top: 60px;
+    background-image: url(../BG.png)
+    background-repeat: no-repeat;
+    background-size: 70vh, cover;
+    background-position: bottom, center;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    column-gap: 20vh;
+
+
+
+/*Category Section*/
+.index-category {
+width: 100%;
+padding: 60px 0;
+background-color: #fff;
+display: flex;
+justify-content: center;
+column-gap: 20px;
+flex-wrap: wrap;
+
+}
+.index-category p{
+    color: #111;
+    text-align: center;
+    padding: 40px;
+    flex-basis: 100%;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.index-category-box {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(228, 69, 11);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.index-category-box:nth-child(2){
+    background-image: url(../img/Categories/Web\ Development.png);
+}
+.index-category-box:nth-child(3){
+    background-image: url(../img/Categories/Movie\ Production.png);
+}
+.index-category-box:nth-child(4){
+    background-image: url(../img/Categories/Film\ Editing.png);
+}
+.index-category-box:nth-child(5){
+    background-image: url(../img/Categories/Photoshop.png);
+}
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1A253A
+    opacity: 0.5;
+    transition: all ease-in-out 200ms ;
+}
+.index-category-box:hover .dark-overlay {
+   opacity: 0;
+}
+.index-category-box-h5 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: center;
+    text-shadow: 0px 3px 4px 0px #000;
+    z-index: 100;
+}
+<!--ABOUT SECTION-->
+.index-about {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #1A253A;
+    display: flex;
+    box-align: center;
+}
+.index-about-image {
+    width: 300px;
+    border-radius: 20px;
+    column-gap: 60px;
+
+    
+}
